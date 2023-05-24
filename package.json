@@ -1,0 +1,13 @@
+
+  {
+    "name": "latespring23-inspirenodefireside",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd lateSpring23-inspireNodeFireside.client && npm i",
+      "setup:server": "cd lateSpring23-inspireNodeFireside && npm i",
+      "start": "node lateSpring23-inspireNodeFireside/index.js"
+    }
+  }
+  
